@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 800px;
+    margin-top: 40px;
+    border: 1px solid white;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
